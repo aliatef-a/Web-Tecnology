@@ -1,0 +1,270 @@
+body {
+    background-color: #EFF2F4;
+}
+.cardText{
+    padding: 0 45px;
+}
+.cardText h1 {
+    font-weight: 500;
+    line-height: 48px;
+}
+.cardText p{
+    font-weight: 300;
+    color: #777373;
+    line-height: 30px;
+}
+
+.cardPayment {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.cardPayment .item {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.cardPayment .item .product{
+    display: flex;
+    justify-content: center;
+}
+.cardPayment .item .product {
+    margin: 2% 0;
+}
+.cardPayment .item .product .img {
+    margin: 0 20px;
+}
+.cardPayment .item .product .img img {
+    height: 245px;
+}
+.cardPayment .item .product .text p {
+    display: inline-block;
+    height: 30px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-right: 10px; 
+}
+.cardPayment .item .product .text .Qty {
+    margin-top: 20px;
+}
+.cardPayment .item .product .text .Qty div {
+    display: flex;
+    justify-content: space-between;
+}
+.cardPayment .item .product .text .Qty div input {
+    width: 50px;
+    height: 26px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 0.5px solid;
+    text-align: center;
+}
+.cardPayment .item .product .text .Qty div a{
+    outline: none;
+    text-decoration: none;
+    color: red;
+    font-weight: 500;
+    line-height: 25.2px;
+}
+
+#Promocode {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #0695FF;
+}
+.cardPayment .Payment {
+    position: relative;
+    width: 397px;
+    height: 539px;
+    border-radius: 20px;
+    padding: 50px 20px;
+    box-shadow: 1px 1px 3px 3px #39536F78 ;
+    overflow: hidden;
+}
+.cardPayment .Payment img {
+    width: 100%;
+    height: 3px;
+    color: #BCD2D3D1;
+
+}
+.cardPayment .Payment h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.cardPayment .Payment .txt {
+   display: flex;
+   justify-content: space-between;
+   text-align: start;
+   align-items: center;
+}
+.cardPayment .Payment .txt  h6{
+    color: #9F9F9F;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28.8px;
+    margin-bottom: 20px;
+
+}
+.cardPayment .Payment .txt2  h6{
+    color: black;
+    font-weight: 500;
+}
+.cardPayment .Payment p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.15px;
+}
+.cardPayment .Payment .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.cardPayment .Payment a {
+    text-decoration: none;
+    font-weight: 300;
+    line-height: 27.84px;
+    font-size: 16px;
+}
+.cardPayment .Payment input {
+    width: 330px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 300;
+    outline: none;
+    position: relative;
+}
+.cardPayment .Payment .btn {
+    margin-top: 50px;
+    width: 500px;
+    margin-left: -80px;
+}
+.cardPayment .Payment .btn a {
+    background-color: #0695FF;
+    color: white;
+    border-radius: 25px;
+    padding: 9px 20px;  
+    transition: 0.3s;  
+} 
+.cardPayment .Payment .btn a:hover {
+    background-color: red;
+}
+
+
+/* --------------------------------payment 2 -------------------------------------------- */
+.title-payment a {
+    font-size: 20px;
+    line-height: 26.4px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.title-payment {
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.Shipping {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.Shipping .info h2 {
+    color: #18ACFE;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38.4px;
+    margin-bottom: 20px;
+}
+.Shipping .info h4 {
+    font-weight: 400;
+    line-height: 40.8px;
+}
+.Shipping .info label {
+    color: #9F9F9F;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-bottom: 10px;
+}
+.Shipping .info input {
+    width: 800px;
+    border: 1px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #9F9F9F;
+    outline: none;
+    box-shadow: 0px 0.5px #9F9F9F;
+}
+
+.Shipping .info .Contact {
+    margin-bottom: 20px;
+}
+.Shipping .info .Address {
+    display: flex;
+}
+
+.Shipping .info .Address input {
+    width: 390px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.Shipping .info .Country input {
+    margin-bottom: 20px;
+}
+.Shipping .info .Country a {
+    background-color: #0695FF;
+    color: white;
+    width: 377px;
+    height: 68px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s ;
+}
+.Shipping .info .Country a:hover {
+    background-color: red;
+}
+.Payment {
+    margin-left: 50px;
+}
+.Payment-Summary {
+    overflow: hidden;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 2px 2px #39536F78;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.Payment-Summary h4 {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28.8px;
+    
+} 
+.Payment-Summary h5 {
+    font-size: 17px;
+}
+.Payment-Summary div {
+    display: flex;
+    justify-content: space-between;
+}
+.Products {
+    overflow: hidden;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 2px 2px #39536F78;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.Products h5 {
+    font-size: 17px;
+}
+.Products p {
+    font-size: 10px;
+    color: #9F9F9F;
+}
+.Products a img {
+    width: 80%;
+    margin-bottom: 20px;
+}

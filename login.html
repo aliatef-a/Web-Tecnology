@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teco - Technology</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo/IMG_0205.PNG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+
+        <!------------------------------------------------------------- NavBar ------------------------------------------------------------ -->
+
+        <nav class="nav1">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="/logo/TECO-Logo-Blue---Technology_1200x.png" alt=""></a>
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="search prouduct">
+                    <button type="submit">Search</button>
+                </div>
+
+                <div class="login">
+                    <div class="log">
+                        <img src="/icon/Vector.png" alt="">
+                        <a href="">login</a>
+                    </div>
+                    <div class="cardd" style="display: flex;">
+                        <img src="/icon/🦆 icon _shopping bag_.png">
+                        <a href="cart.html"> Cart(1)</a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <nav class="navbar nav2 navbar-expand-lg navbar-light">
+            <div class="container-fluid navv2">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="Categories.html">Categories</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">Shop</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">About Us</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="#">Settings</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!------------------------------------------------------------- NavBar ------------------------------------------------------------ -->
+
+
+
+    <section class="content-log">
+        <div class="login" id="login">
+           <form>
+             <div class="text">
+                 <h1>Log in</h1>
+                 <p>Log into your account and enjoy a faster checkout.</p>
+             </div>
+            
+             <div class="user">
+                 <h6>User Name *</h6>
+                 <input type="text" placeholder="Enter UserName">
+             </div>
+             <div class="user">
+                 <h6>password *</h6>
+                 <input type="password" placeholder="Enter password">
+             </div>
+            
+             <div class="lostpass">
+                 <a onclick="lostpass()" href="#">Lost Your Password ?</a><br>
+                 <button type="submit" class="icon ion-log-in">Log in</button>
+             </div>
+            
+             <div class="sign">
+                 <p>Don’t have an account?</p>
+                 <a onclick="signUp()" href="#">sign up</a>
+             </div>
+           </form>
+        </div>
+
+        <!--------------------------------------- sign up------------------------------ -->
+        <div class="login sign" id="sign" style="display: none;">
+           <form>
+             <div class="text">
+                 <h1>Sign Up</h1>
+                 <p>Create an account and enjoy Fast Easy Checkout, Order Tracking, and Loyalty Points.</p>
+             </div>
+            
+             <div class="user">
+                 <h6>User Name *</h6>
+                 <input type="text" placeholder="Enter UserName">
+             </div>
+             <div class="user">
+                 <h6>Emai Address *</h6>
+                 <input class="form-control" type="email" placeholder="Enter Email Adress Here">
+             </div>
+             <div class="user">
+                 <h6>password *</h6>
+                 <input  type="password" placeholder="Enter password">
+             </div>
+            
+             <div class="lostpass">
+                 <button type="submit" class="icon">Create Account</button>
+             </div>
+           </form>
+        </div>
+<!--------------------------------------- sign up------------------------------ -->
+        <!-- ----------------------------forget passwored  ------------- -->
+        <div class="login sign rest" id="rest" style="display: none;">
+           <form>
+             <div class="text">
+                 <h1>Forgot password?</h1>
+                 <p>Don’t worry! It happens. Please enter the email associated with your account.</p>
+             </div>
+            
+             <div class="user">
+                 <h6>User Name or Email *</h6>
+                 <input type="text" placeholder="Enter UserName or Email">
+                 <p> <img src="/icon/carbon_warning-filled.png"> We will send you an email to reset your password.</p>
+             </div>
+            
+             <div class="lostpass">
+                 <button onclick="rest()" type="submit" class="icon">Reset password</button>
+             </div>
+             <div class="sign">
+                 <p>Remembered password?</p>
+                 <a onclick="signUp2()" href="#">sign up</a>
+             </div>
+           </form>
+        </div>
+  <!-- ----------------------------forget passwored  ------------- -->
+  <div class="login sign rest forget" id="forget" style="display: none ;">
+   <form>
+     <div class="text">
+         <h1 style="font-size: 38px; margin-bottom: 20px;">Please Check Your Inbox</h1>
+         <p>A password reset email has been sent to the email address on file for your account, but may take several minutes to show up in your inbox. Please wait at least 10 minutes before attempting another reset.</p>
+     </div>
+     <div class="sign">
+         <p>Incorrect email address?</p>
+         <a href="">Change Email</a>
+     </div>
+     <div class="sign">
+         <p>Don’t have an account?</p>
+         <a onclick="signUp3()" href="#">sign up</a>
+     </div>
+   </form>
+</div>
+        
+
+
+        <div class="img">
+            <img src="/icon/Rectangle 29.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- ---------------------------- Footer ---------------------------->
+
+
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <div class="img">
+                            
+                        </div>
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Legacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Careers</h3>
+                        <ul>
+                            <li><a href="#">Job openings</a></li>
+                            <li><a href="#">Employee success</a></li>
+                            <li><a href="#">Benefits</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                        <img src="/icon/1709326167418 1.png" alt="">
+                        <a href="#"><i class="icon ion-social-facebook"></i></a><a
+                            href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
+                                class="icon ion-social-snapchat"></i></a><a href="#"><i
+                                class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">Computer Science Work</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+</html>
